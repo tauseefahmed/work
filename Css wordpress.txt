@@ -1,0 +1,15 @@
+<ul class="socialMedia">
+<li><a href="https://www.facebook.com/AlShunnarPlasticSurgeryuae/"><img src="/wp-content/uploads/2019/09/facebook.png" alt="social icons" data-no-retina=""></a></li>
+<li><a href="https://www.instagram.com/al_shunnar/"><img src="/wp-content/uploads/2019/09/instagram.png" alt="social icons" data-no-retina=""></a></li>
+<li><a href="https://twitter.com/al_shunnar?lang=en"><img src="/wp-content/uploads/2019/09/twitter.png" alt="social icons" data-no-retina=""></a></li>
+</ul>
+
+.socialMedia {
+    display: block;
+    max-width: 300px;
+    margin: auto;
+}
+
+ul.socialMedia li {
+    display: inline-block;
+}
