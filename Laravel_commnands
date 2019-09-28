@@ -2,3 +2,11 @@ Q change Table name code
 Schema::rename('blogposts',"blog_post");
 Q change Table name command
 php artisan make:migration change_blogposts_table_name --table=blogposts
+--------------------Tinker---------------------------
+php artisan tinker
+insert----------
+$post=new App\BlogPost();
+$post->title="Hello World";
+$post->();
+fetch-----------
+$blogposts=App\BlogPost::all();
