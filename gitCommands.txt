@@ -1,8 +1,10 @@
-ls
-cd
+echo "# React" >> README.md
 git init
-git remote add origin [gitLink]
-git remote -v
-git add .
-git commit -m "First commit"
-git push origin master
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/tauseefahmed/React.git
+git push -u origin master
+
+
+git remote add origin https://github.com/tauseefahmed/React.git
+git push -u origin master
